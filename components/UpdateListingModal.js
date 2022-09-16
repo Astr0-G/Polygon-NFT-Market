@@ -53,7 +53,7 @@ export default function UpdateListingModal({
             }}
         >
             <Input
-                label="Update listing price in MATIC)"
+                label="Update price in (MATIC)"
                 name="New listing price"
                 type="number"
                 onChange={(event) => {
@@ -61,6 +61,5 @@ export default function UpdateListingModal({
                 }}
             />
         </Modal>
-        
     )
 }

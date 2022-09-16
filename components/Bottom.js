@@ -2,7 +2,7 @@ import { ConnectButton } from "web3uikit"
 import Link from "next/link"
 export default function Header() {
     return (
-        <a1>
+        <a1 className="fixed inset-x-0 bottom-0 p-4">
             <Link href="/">
                 <button className="text-2xl rounded-tr-full text-white font-bold bg-gradient-to-r from-cyan-400 to-blue-400 border-indigo-500/100 absolute bottom-0 left-0 mr-0 p-16">
                     BUY

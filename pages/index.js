@@ -78,9 +78,9 @@ export default function Home() {
     )
     console.log(listedNfts)
     return (
-        <div className="text-stone-800 container mx-auto">
-            <h1 className="py-4 px-4 ">NFT Market Recently Listed</h1>
-            <div className="flex flex-wrap">
+        <div className="text-stone-800 mx-auto ">
+            <h1 className="py-4 px-4">NFT Market Recently Listed</h1>
+            <div className="flex-wrap flex items-center justify-center">
                 {listedNfts.map((nft) => {
                     console.log(nft.attributes)
                     const { price, nftAddress, tokenId, marketplaceAddress, seller } =

@@ -12,9 +12,9 @@ import { useEffect, useState } from "react"
 export default function Home() {
     const dispatch = useNotification()
     const chainIds = `0x${Number(137).toString(16)}`
-    
+
     const rpcURL = "https://polygon-rpc.com"
-    const networkName = "APolygon Mainnet"
+    const networkName = "Polygon Mainnet"
     const currencyName = "MATIC"
     const currencySymbol = "MATIC"
     const explorerURL = "https://polygonscan.com/"
@@ -49,7 +49,6 @@ export default function Home() {
         addNetwork()
         console.log(`hexxxx is ${chainIds}`)
     } else {
-        
         const marketplaceAddress = networkMapping[chainString].NftMarketplace[0]
         const [proceeds, setProceeds] = useState("0")
 

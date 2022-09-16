@@ -21,7 +21,7 @@ export default function Home() {
     }
     const chainIds = `0x${Number(137).toString(16)}`
     const rpcURL = "https://polygon-rpc.com"
-    const networkName = "APolygon Mainnet"
+    const networkName = "Polygon Mainnet"
     const currencyName = "MATIC"
     const currencySymbol = "MATIC"
     const explorerURL = "https://polygonscan.com/"
